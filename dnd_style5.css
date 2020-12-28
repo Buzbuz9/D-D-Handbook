@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+/*
+  Final Project
+
+   FAQ/QA Style Sheet
+   Author: Abigail Turner
+   Date:   4/20/2020
+
+   Filename:   dnd_style5.css
+
+*/
+
+/*Image Styles*/
+
+.container {
+	position: relative;
+}
+
+.container h1{
+	position: absolute;
+	bottom: 5px;
+	left: 10px;
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-shadow: black 2px 3px 10px;
+}
+img#guide{
+	padding-top: 0px;
+}
+
+.container img{
+	width: 100%;
+	padding-top: 10px;
+}
+/*General Styles*/
+dl{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+h1{
+	font-size: 2em;
+}

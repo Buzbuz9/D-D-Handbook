@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+/*
+  Final Project
+
+   Character Creation Style Sheet
+   Author: Abigail Turner
+   Date:   4/22/2020
+
+   Filename:   dnd_style2.css
+
+*/
+
+/*Image Styles*/
+img#logo, p#logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width:30px;
+}
+.container {
+	position: relative;
+}
+
+.container h1{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.container img{
+	width: 100%;
+	padding-top: 10px;
+}
+h2.race, h2.class{
+	float: left;
+}
+img.race, img.class{
+	display: block;
+	width: 20%;
+	float: left;
+}
+ p.class{
+	clear: left;
+	text-align: center;
+	padding-bottom: 8px;
+}
+
+p.race{
+	clear: left;
+	padding-bottom: 8px;
+}
+div#raceImage img{
+	padding-top: 0px;
+}
+
+/*List Styles*/
+ul#outer{
+	font-size: 22px;
+	font-weight: bold;
+}
+ul li {
+	list-style-type: none;
+}
+ul#list{
+		font-size: 18px;
+		font-weight: bold;
+}
+ul li ul li{
+	font-size: 16px;
+	font-weight: normal;
+}
+ul li ul li{
+	list-style-type: circle;
+	list-style-position: inside;
+}
+
+dl{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/*Backgroud Styles*/
+
+div#wizard{
+	background-image: url(purple.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+div#warlock{
+	background-image: url(blue.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+div#sorcerer{
+	background-image: url(green.jpg);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+div#druid{
+	background-image: url(green.jpg);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+div#ranger{
+	background-color: white;
+}
+
+
+/*Inner Page Link Styles*/
+
+hr{
+	display: block;
+}
+
+dl{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+h2{
+	font-size: 2em;
+}

@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/*
+   Final Project
+
+   Calendar Style Sheet
+   Author: Abigail Turner
+   Date:   4/13/2020
+
+   Filename:   dnd_table.css
+
+*/
+
+/* Table Styles */
+table {
+	background: white;
+	border: 10px outset gray;
+	border-collapse: collapse;
+	font-size: 0.75em;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/* Table Cell Styles */
+table th, table td {
+	border: 1px solid gray;
+	padding: 5px;
+	vertical-align: top;
+}
+
+
+/* Table Caption Styles */
+table caption {
+	caption-side:bottom;
+	text-align: right;
+}
+
+
+
+/* Row Group Styles */
+table thead {
+	background: black;
+	color: white;
+}
+
+table thead tr {
+	height: 25px;
+	
+}
+
+
+table tbody tr {
+	height: 20px;
+	
+}
+
+
+/* Column Group Styles */
+col {
+	background: white;
+	width: 12%;
+}
+
+col {
+	background: white);
+	width: 8%;
+}

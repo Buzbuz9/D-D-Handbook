@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+/*
+  Final Project
+
+   Playing the Game Style Sheet
+   Author: Abigail Turner
+   Date:   4/20/2020
+
+   Filename:   dnd_style3.css
+
+*/
+
+/*Image Styles*/
+.container {
+	position: relative;
+}
+
+.container h1{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.container img{
+	width: 100%;
+	padding-top: 10px;
+}
+
+div#game img{
+	padding-top: 0px;
+}
+/*Video Styles*/
+video {
+	width: 100%;
+}
+
+
+/*Table Styles*/
+table.coinage {
+	background: white;
+	border: 5px solid black;
+	border-collapse: collapse;
+	font-size: 0.75em;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table.coinage caption {
+	caption-side:top;
+	text-align: center;
+	font-size: 20px;
+}
+
+table.coinage thead {
+	background: gold;
+	color: white;
+}
+
+table.coinage thead tr {
+	height: 25px;
+	
+}
+
+
+table.coinage tbody tr {
+	height: 20px;
+	
+}
+
+table.coinage th, table td {
+	border: 1px solid gray;
+	padding: 5px;
+	vertical-align: top;
+}

@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/*
+  Final Project
+
+   Home Page Style Sheet
+   Author: Abigail Turner
+   Date:   4/21/2020
+
+   Filename:   dnd_style1.css
+
+*/
+
+/*General Styles*/
+
+dl{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+ 
+
+h2{
+	font-size: 2em;
+}
+h2#vocab{
+	text-align: center;
+}
+
+/*Image Styles*/
+
+.container {
+	position: relative;
+}
+
+.container h1{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-shadow: black 2px 3px 8px;
+}
+img#dragon1{
+	padding-top: 0px;
+}
+
+.container img{
+	width: 100%;
+	padding-top: 10px;
+}
