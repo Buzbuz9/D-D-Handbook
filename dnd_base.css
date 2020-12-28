@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+/*
+  Final Project
+
+   Base Style Sheet
+   Author: Abigail Turner
+   Date:   4/20/2020
+
+   Filename:   dnd_base.css
+
+*/
+
+/* General Formating Rules */
+header{
+	width: 100%;
+}
+footer{
+	text-align: center;
+	padding-bottom: 18px;
+	padding-top: 10px;
+}
+footer a{
+	text-decoration: none;
+	color: green;
+	border: 1px solid green;
+	border-radius: 10px;
+	padding: 5px;
+}
+header h1 {
+	text-align: center;
+	color: white;
+	background: linear-gradient(to bottom, black, gray, white);
+	background-position: 50% 35%;
+	text-shadow: black 2px 3px 8px;
+	margin: 0px;
+}
+html {
+	background-image: url(collage.jpg);
+}
+
+body {
+	background-color: white;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p, h1, h2, h3{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+/* Nav List Rules */
+
+nav ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+nav a{
+	display: block;
+	height: 40px;
+	background-image: url(fog.jpg);
+	background-position: center center;
+	float: left;
+	width: 20%;
+	text-align: center;
+	color: rgb(157, 245, 168);
+	text-shadow: black 2px 3px 5px;
+	text-decoration: none;
+	font-family: Luminari, fantasy;
+	
+}
+nav{
+	padding: 0px;
+	margin:0px;
+	border: 0px;
+}
+
+section {
+	clear: left;
+}
+
+/* Diiscription List Rules */
+dl dt{
+	
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+dl dd {
+	font-size: .8em;
+}
+
+/*Stylistic Rules*/
+hr {
+	border-top: 1px solid black;
+	width: 75%;
+}
+
+h1, h3, h2, p, dl, dt, ul, li, a{
+	font-family: serif;
+}
+
+footer nav{
+	padding-top: 0px;
+}

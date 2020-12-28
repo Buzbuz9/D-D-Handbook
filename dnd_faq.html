@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+     Final Project
+
+      Duengons and Dragons : Questions and Answers
+      Author: Abigail Turner
+      Date:   4/3/2020
+
+      Filename:   dnd_faq.html
+
+   -->
+   
+   <meta charset="utf-8" />
+   <meta name="keywords" content="dungeons, dragons, dnd, game, tabletop, how to, Dungeons and Dragons, d&d, playing the game, game, tabletop" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link href="dnd_base.css" rel="stylesheet" />
+   <link href="dnd_form.css" rel="stylesheet" />
+   <link href="dnd_media.css" rel="stylesheet">
+   <link href="dnd_style5.css" rel="stylesheet" />
+ </head>
+   <body>
+   <header>
+		<h1 id="top">Duengons and Dragons: A How to Guide</h1>
+		<nav>
+			<ul>
+				<li><a href="dnd_home.html">Home</a></li>
+				<li><a href="dnd_character.html">Character Creation</a></li>
+				<li><a href="dnd_game.html">Playing the Game</a></li>
+				<li><a href="dnd_players.html">Finding Players</a></li>
+				<li><a href="dnd_faq.html">FAQ + Q/A</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<div class="container">
+		<h1>Frequently Asked Question</h1>
+		<img src="guide.jpg" alt="tavern" id="guide">
+		</div>
+		<dl>
+			<dt>How do I resolve issues with the people I am playing with?</dt>
+			<dd>There is no correct answer, rember that they are people too and most issues can be talked out.</dd>
+			
+			<dt>How many players should there be in a game?</dt>
+			<dd>4-6 is the recommened player amount, but you can play with more or fewer people.</dd>
+			
+			<dt>Can [Insert Race] Become A [Insert Class]? </dt>
+			<dd>Yes. There are no racial restrictions on classes. A half-orc or a lizardfolk can become a wizard, an elf or 
+			a halfling can be a barbarian, etc.</dd>
+			
+			<dt>Does a [Insert Class] have to be [Insert Alignment]?</dt>
+			<dd>No, in 5e there are no class alignment restrictions.</dd>
+			
+			<dt>How Do I Multiclass?</dt>
+			<dd>1st your DM has to allow it, but Multiclassing allows a character to gain a level in a different class, such 
+			as a fighter taking a level of a rogue. You can do this when you accumulate enough experience points to level up.</dd>
+			
+			<dt>Is there a lot of math involved?</dt>
+			<dd>Just basic addition and maybe a little basic multiplication.</dd>
+			
+			<dt>How long does a game take to play?</dt>
+			<dd>As long as you want. As a group decide on how much time you want to play the game for. Often players will meet 
+			up regularly to play with the same characters on different adventures like a television show, but you can easily 
+			play for an hour or so in a single evening and enjoy a short, thrilling adventure.</dd>
+			
+			<dt>This seems like a lot of work. Is there a faster easier way to start?</dt>
+			<dd>Yes, you can use a premade character instead of making your own and start playing that way.</dd>
+			
+			<dt></dt>
+			<dd></dd>
+			
+			<dt></dt>
+			<dd></dd>
+			
+			<dt></dt>
+			<dd></dd>
+			
+		</dl>
+		
+		
+		
+		<h1>Ask A DM</h1>
+		<p>If you have any remaining doubts or questions about dnd please feel free to fill out this form and a DM will get back to you. </p>
+		<form>
+			<legend>Q/A Ask a DM</legend>
+			
+			<div>
+			<label for="name">Name*</label>
+			<input id="name" type="text" placeholder="first and last name" required />
+			</div>
+			
+			<div>
+			<label for="phone">Phone number</label>
+			<input id="phone" type="tel" placeholder="(###) ###-####" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" />
+			</div>
+			
+			<div>
+			<label for="mail">E-mail*</label>
+			<input id="mail" type="email" required />
+			</div>
+			
+			<div>
+			<label for="info">What inspired you to start you duengons and dragons journey?<br />(select all that apply)</label>
+					<select name="infoSrc" id="info" size="4" multiple>
+						<option value="internet">The Internet</option>
+						<option value="friends">Friends that play</option>
+						<option value="word">Word of Mouth</option>
+						<option value="other">Other</option>
+					</select>
+			</div>
+			
+			<div>
+			<label for="questionType">What type of question do you need answered?</label>
+			<input name="queType" id="questionType" type="text" list="qType" />
+					<datalist id="qType">
+						<option value="General" />
+						<option value="Game Play" />
+						<option value="Character Creation" />
+						<option value="Supplies" />
+						<option value="Other" />
+					</datalist>
+			</div>
+			
+			<div id="yN">
+			<label>Would you recommened this cite to others trying to learn dnd?</label>
+					<fieldset>
+						<label for="Yes">Yes</label>
+						<input name="recommened" id="Yes" type="radio" />
+						<label for="No">No</label>
+						<input name="recommened" id="No" type="radio" />
+					</fieldset>
+			</div>
+			
+			<div>
+			<label for="rangeBox">How helpful has this cite been?<br />(0=not at all; 10=super)</label>
+			0
+			<input name="serviceRate" id="rangeBox" type="range" value="5" step="1" min="0" max="10" />
+			10
+			</div>
+			
+			<div>
+			<label for="queBox">Enter your question below.</label>
+			<textarea name="question" id="queBox"></textarea>
+			</div>
+
+			<div id="buttons">
+			<input type="submit" value="Submit My Question" />
+			<input type="reset" value="Cancel" />
+			</div>
+			
+		</form>
+		
+	</section>
+   
+   </body>
+	<footer>
+		<a href="#top">Return to Top</a>
+	</footer>
+ </html>
